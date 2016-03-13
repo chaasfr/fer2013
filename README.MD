@@ -53,8 +53,8 @@ précision.
 
 ###Stratégie du SVM
 - L'idée derrière le SVM est d'avoir chaque réseau spécialisé dans 2 ou 3 des 7 expressions faciales à reconnaître. Le SVM va apprendre, à partir des prédictions donnés par les réseaux sur le private test, quel réseau est "spécialisé" pour quel expression. Les SVM linéaire, One vs One et One vs Rest ont été testé, la fonction de décision la plus précise est OvR.
-- On obtient ainsi une précision de 99% sur le private test. Cependant, le résultat final de 17.63% sur le public test est questionnable. 2 hypothèses peuvent être formulées: \n
--- Le SVM a pu faire du surapprentissage sur le Private Test \n
+- On obtient ainsi une précision de 99% sur le private test. Cependant, le résultat final de 17.63% sur le public test est questionnable. 2 hypothèses peuvent être formulées:  
+-- Le SVM a pu faire du surapprentissage sur le Private Test  
 -- Le Public test est peut être défaillant
 
 
