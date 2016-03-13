@@ -1,7 +1,8 @@
 #TP final deeplearning
 
 ##How to run
-Ouvrir main.ipynb puis renseigner les 2 variables caffe_root et TP_root:
+Ouvrir main.ipynb  
+Renseigner les 2 variables caffe_root et TP_root:
 -caffe_root est le dossier contenant l'installation de caffe
 -TP_root est le dossier contenant ce git (la racine de model, pretrained et predictions)
 
