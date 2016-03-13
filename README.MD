@@ -16,5 +16,5 @@ Renseigner les 2 variables caffe_root et TP_root:
 
 ##Stratégie du code
 Les réseaux de neuronnes sont entrainés individuellement sur Emotion_Public_Train. Ensuite, ils sont testés sur Emotion_Private_Test. Les prédictions qu'ils réalisent sont utilisés de deux manières:
--Soit par une stratégie par vote, où le vote de chaque réseau est pondéré par la précision qu'il a obtenu lors de son test individuel. La précision obtenue sur le private est alors de 58%.
--Soit, chaque prédictions des réseaux de neuronnes est réutilisé pour entrainer un SVM en One vs All. La précision est alors de 99% sur le Private Test, mais l'évaluation sur Public Test reste autour de 17%. Le SVM fait sans doute de l'overfeeting...
+- Soit par une stratégie par vote, où le vote de chaque réseau est pondéré par la précision qu'il a obtenu lors de son test individuel. La précision obtenue sur le private est alors de 58%.
+- Soit, chaque prédictions des réseaux de neuronnes est réutilisé pour entrainer un SVM en One vs All. La précision est alors de 99% sur le Private Test, mais l'évaluation sur Public Test reste autour de 17%. Le SVM fait sans doute de l'overfeeting...
